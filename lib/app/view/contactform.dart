@@ -10,6 +10,11 @@ class ContactForm extends StatefulWidget {
 class _ContactFormState extends State<ContactForm> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+        title: Text("NFANFlAf"),
+      ),
+    );
   }
 }
